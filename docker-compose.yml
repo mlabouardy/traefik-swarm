@@ -29,7 +29,7 @@ services:
       labels:
         - "traefik.port=5000"
         - "traefik.backend=books"
-        - "traefik.frontend.rule=PathPrefix:/books"
+        - "traefik.frontend.rule=Path:/books"
 
   movies:
     image: mlabouardy/movies-api
@@ -42,7 +42,7 @@ services:
       labels:
         - "traefik.port=5000"
         - "traefik.backend=movies"
-        - "traefik.frontend.rule=PathPrefix:/movies"
+        - "traefik.frontend.rule=Path:/movies"
 
 networks:
   traefik-net:
