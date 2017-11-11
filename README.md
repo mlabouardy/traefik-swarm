@@ -1,3 +1,3 @@
-## How it works
+## How to use
 
-http://www.blog.labouardy.com/compose-traefik/
+* [Monitor Swarm cluster with TICK stack & Slack](http://www.blog.labouardy.com/monitor-swarm-cluster-with-tick-stack-slack/)
